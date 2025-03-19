@@ -46,7 +46,7 @@ function Editor({ markdown, onMarkdownChange }) {
           modifyText(selectedText ? `~~${selectedText}~~` : '~~Strikethrough Text~~');
           break;
         default:
-          return; // Не предотвращаем стандартное поведение для других комбинаций
+          return; 
       }
     }
   };
